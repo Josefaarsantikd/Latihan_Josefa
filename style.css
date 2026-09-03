@@ -1,0 +1,160 @@
+/* Pengaturan Dasar */
+* {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 700px;
+}
+
+.header {
+    background-color:burlywood;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    background-color: white;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #000;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+/* 2. Hero Section */
+.hero {
+    background-color: #d4e6f1;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+}
+
+/* 3. Services Section */
+.services-section {
+    background-color: #fcf3cf;
+    padding: 30px 40px;
+    text-align: center;
+}
+
+.section-title {
+    border: 1px solid #000;
+    display: inline-block;
+    padding: 5px 25px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    background: #fff;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.service-box {
+    background: transparent;
+    text-align: left;
+    flex: 1;
+}
+
+.service-box h3 {
+    margin-bottom: 10px;
+}
+
+.service-box p {
+    font-size: 13px;
+    color: #333;
+}
+
+/* 4. About Section */
+.about-section {
+    background-color: #e8daef;
+    padding: 30px 40px;
+    text-align: center;
+}
+
+.about-desc {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    text-align: left;
+}
+
+.about-left, .about-right {
+    flex: 1;
+}
+
+.wave-box {
+      width: 100%;
+      max-width: 320px;
+      height: 150px;
+}
+
+.wave-box svg {
+      width: 100%;
+      height: 100%;
+}
+
+/* 5. Contact Section */
+.contact-section {
+    background-color: #d4efdf;
+    padding: 30px 40px;
+    text-align: center;
+}
+
+.form-row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.form-row input, .contact-section textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background: #fff;
+    margin-bottom: 15px;
+}
+
+.btn-kirim {
+    background-color: #2e86c1;
+    color: #fff;
+    border: none;
+    padding: 6px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+}
+
+/* 6. Footer */
+.footer {
+    background-color: #fdebd0;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    clear: both;
+}
